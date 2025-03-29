@@ -1,119 +1,238 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web 前端开发技术课程作业</title>
-</head>
-<body>
-    <h1>暗处的女儿</h1>
-    <p>
-      <img src="th.jpg" alt="暗处的女儿" width="200" /><img
-        src="tupian\anchu.webp"
-        alt="说明文字"
-        width="200"
-      />
-    </p>
-    <div>
-    <p>
-        作者介绍
-    </p>
-    <p>
-      <img src="th.jpg" alt="埃莱娜·费兰特" width="200" /><img
-      src="tupian\zuozhe.webp"
-      alt="说明文字"
-      width="200"
-      </p>
-    <ul>
-        <li>埃莱娜·费兰特（Elena Ferrante，1943年1月1日—），意大利当代匿名作家，1992年开始发表小说，从2011年开始发表“那不勒斯四部曲”引起轰动，成为国际畅销书。2016年入选《时代周刊》评选的“当今世界100个最具影响力的人物”榜单。</li>
-
-    </ul>
-    <p>
-        文章简介
-    </p>
-    <ul>
-        <li>三年零三十六天 一个母亲的逃离和回归
-            在两个女儿跟随父亲去了多伦多后，中年离异的勒达一个人去海边度假，在沙滩上，她遇到年轻的母亲尼娜和女儿埃莱娜，勒达和这对幸福的母女产生了一种复杂的依恋。勒达故意拿走了埃莱娜遗忘在沙滩上的布娃娃，让尼娜的生活陷入彻底的混乱。
-十五年前，一个叫比兰达的英国女人在勒达无望的生活中出现过几个小时，彻底改变了勒达的命运。十五年后，二十二岁的尼娜似乎也选择勒达来帮助自己出走，但勒达最终的坦白令她陷入恐惧。在这片海滩，勒达真正要面对的，是自己和女儿破碎的过往。
-        </li>
-    </ul>
-    <p>
-        作品成就
-    </p>
-    <ol>
-        <li>玛吉•吉伦哈尔改编的同名电影于2021年亮相威尼斯电影节，并获得奥斯卡奖三项提名。</li>
-        <li>豆瓣2024年度外国文学第一名</li>
-    </ol>
-    <p>
-        原文摘录
-    </p>
-    <ol>
-        <li>
-            我真是愚蠢，在孩子十五岁之前，和她们聊这些事，期望让她们看到，我是一个活生生的人，而不是一个工具。告诉她们：我是你们的过去，你们的根基，要听我的话，这对你们有用。我不是尼娜的过去，但她可以把我视为她的将来。我选择了一个无关的人，把她当作女儿来陪伴我，我在寻找她，靠近她。
-        </li>
-        <li>
-            那一年我过得很艰难，孩子从不睡觉，也不让我睡，身体上的疲惫把一切都放大了。我太累了，不能学习、思考、哭泣、大笑，也无法爱那个过于聪明的男人，他过于沉迷于和生活博弈，缺席的时间太多了。爱情也需要精力，我已经筋疲力尽了。当他开始抚摸我、亲吻我的时候，我会变得很烦躁，感觉那是一种侵犯，实际是他一个人在享受欢愉。我曾经近距离看到相爱意味着什么，那是一种强大、愉悦、让人忘记责任的情感。
-        </li>
-        <li>
-            生活有时候在重复，很有讽刺性。从十三四岁起，我就渴望能成为体面的资产阶级，说一口标准的意大利语，过上一种有文化、深思熟虑的生活。那不勒斯似乎像会淹没我的浪潮，我觉得这个城市不存在我希望的生活，除了我小时候熟悉的暴力、粗俗、慵懒、虚情假意的生活，或者努力掩饰自己的可怜处境。我不相信，这座城市还有其他生活，我根本都没有费力寻找，无论是过去，还是未来，我就像一个被烧伤的人，尖叫着逃跑了，撕下被烧伤的皮肤，坚信自己死掉了烧伤本身
-        </li>
-    </ol>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>燕云十六声</title>
+    <style>
+      .center-img {
+        text-align: center;
+      }
+    </style>
+    <div class="center-img">
+      <img src="tupian\logo.png" alt="燕云十六声" width="400" />
     </div>
-    <div>
-        <h2>全书解构</h2>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        background-image: url('tupian/beijing.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center; 
+      }
+      h1 {
+        background-image: url("tupian/feature_mask_c16860a4 (1).png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-family: "cooper", "华文楷体";
+        color: rgba(15, 40, 45, 0.875); 
+        text-align: center; 
+        font-size: 24px
+      }
+      h2 {
+        font-family: "cooper", "楷体";
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 36px 
+      }
+      h3 {
+        font-family: "cooper", "华文行楷";
+        color: rgb(11, 12, 13);
+      }
+      body {
+        background-color: lightblue;
+        font-family: "楷体";
+        font-size: 20px
+      }
+      .image-slider img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        display: none;
+      }
+.image-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: none;
+}
+
+.image-slider img:first-child {
+  display: block;
+}
+nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 10px;
+      }
+      nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>剑火映侠情，无关风与月</h1>
+    <nav>
+      <ul>
+        <li><a href="#game-feature">游戏特色</a></li>
+        <li><a href="#hex-welfare">河西福利</a></li>
+        <li><a href="#actual-display">游戏实机展示</a></li>
+        <li><a href="#actual-display">游戏介绍</a></li>
+      </ul>
+    </nav>
+    <style>
+      /* 新增按钮样式 */
+      #prevBtn,
+      #nextBtn {
+        background-color: #0d0f10; /* 按钮背景颜色 */
+        color: white; /* 按钮文字颜色 */
+        border: none; /* 移除边框 */
+        border-radius: 5px; /* 按钮圆角 */
+        padding: 10px 20px; /* 按钮内边距 */
+        font-size: 16px; /* 按钮文字大小 */
+        cursor: pointer; /* 鼠标悬停时显示指针 */
+        margin: 10px; /* 按钮外边距 */
+        transition: background-color 0.3s ease; /* 背景颜色过渡效果 */
+      }
+    
+      /* 鼠标悬停时的按钮样式 */
+      #prevBtn:hover,
+      #nextBtn:hover {
+        background-color: #3d4248; /* 悬停时的背景颜色 */
+      }
+    </style>
+    <section>
+      <img src="tupian\tese.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      <div class="full-page-image-slider">
+        <img src="tupian\tianying.jpg" alt="图片1" style="display: block; margin: 0 auto; width: 1500px;">
+        <img src="tupian\zhenge.jpg" alt="图片2" style="display: block; margin: 0 auto; width: 1500px;">
+        <img src="tupian\iq.jpg" alt="图片3" style="display: block; margin: 0 auto; width: 1500px;">
+        <img src="tupian\44.jpg" alt="图片4" style="display: block; margin: 0 auto; width: 1500px;">
+        <img src="tupian\95.jpg" alt="图片5" style="display: block; margin: 0 auto; width: 1500px;">
+      </div>
+      <button id="prevBtn">上一张</button>
+      <button id="nextBtn">下一张</button>
+      <script>
+        // 获取所有图片元素
+        const images = document.querySelectorAll('.full-page-image-slider img');
+        // 当前显示的图片索引
+        let currentIndex = 0;
+      
+        // 显示指定索引的图片
+        function showImage(index) {
+          images.forEach((img, i) => {
+            img.style.display = i === index ? 'block' : 'none';
+          });
+        }
+      
+        // 上一张按钮点击事件
+        document.getElementById('prevBtn').addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          showImage(currentIndex);
+        });
+      
+        // 下一张按钮点击事件
+        document.getElementById('nextBtn').addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % images.length;
+          showImage(currentIndex);
+        });
+      
+        // 初始显示第一张图片
+        showImage(currentIndex);
+      </script>
+      <img src="tupian\gift_title_5ee0dfc8.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      <img src="tupian\liwu.png" alt="图片1" style="display: block; margin: 0 auto; width: 1400px;">
+      <img src="tupian\gameshow_title_9723eb9a.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      <h3>清河</h3>
+      <img src="tupian\9_1016cef.jpg" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      <p>
+        江湖的起承之地。这里是故事的原点，也是游侠儿最初的理想地和温柔乡。 清河有大片的原野，朴实的村庄，和各种动人的自然生态。
+      </p>
+      <h3>开封</h3>
+      <img src="tupian\18_ad3098b.jpg" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+     <p>
+      词有云“一梦繁华三千里”说的就是开封，燕云里的开封城，也在生机勃勃中逐渐靠近那个繁华的神京。
+     </p> 
+      <h3>河西</h3>
+      <img src="tupian\002.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      <p>
+        万里长风吹至玉门关，滚滚黄沙，其上承载着往来旅人侠客的足迹，其下也埋葬着无数的英雄和史诗。
+      </p>
+      <h2>游戏介绍</h2>
+      <div>
         <p>
-            《暗处的女儿》<a href="https://baike.baidu.com/item/%E6%9A%97%E5%A4%84%E7%9A%84%E5%A5%B3%E5%84%BF/64044921?fromModule=lemma_search-box"
-          >暗处的女儿百度百科。</a
-        >
+          游戏的故事背景设定在五代十国与宋代的交替之时，玩家作为一名侠客，开启属于自己的武侠故事。游戏允许专注于“东方武侠世界中存在的各种身份和职业”。游戏中会有多种不同的玩法风格，如剑术、武技、甚至是太极等，可以混合搭配剑法、近身战等来战斗。分为单人和多人两种模式。 
         </p>
-        <p>
-            主要人物
-        </p>
-        <table>
-            <tr>
-              <td>勒达</td>
-              <td>詹尼</td>
-              <td>尼娜</td>
-            </tr>
-            <tr>
-              <td>吉诺</td>
-              <td>罗莎莉娅</td>
-              <td>乔瓦尼</td>
-            </tr>
-          </table>
-        <ol>
-            <li>勒达
-                在家庭中，她生育并抚养两个女儿，经历了离开女儿又回归的过程，在女儿成长过程中扮演了复杂的角色。她的行为和选择对女儿产生了深远影响，如她的离开让女儿在成长中缺失母爱，回归后又努力调整自己，试图弥补并引导女儿成长。她的存在是女儿成长历程中的关键因素，同时女儿也是她生活中情感纠葛的重要来源，促使她不断反思自己作为母亲的角色。</li>
-            <li>詹尼
-                在家庭生活中，他与勒达育有两个女儿，在工作忙碌的情况下，尽力参与女儿的成长过程。他为女儿的未来规划道路，引导她们学习理科，像他一样追求学术成就。在勒达离开的三年里，他独自承担起抚养女儿的责任，确保女儿的生活得到妥善照顾，是家庭中的重要支柱。</li>
-            <li>尼娜
-                年轻母亲，在家庭中扮演着温柔母亲的角色，与女儿关系亲密，与家人相处融洽。但随着故事发展，在女儿丢娃娃等事件的压力下，逐渐变得焦虑、脆弱，甚至有些神经质。她渴望改变现状，对自己的生活有一定的憧憬，但又缺乏勇气和明确的方向，在面对感情和生活的困境时摇摆不定。</li>
-            <li>吉诺
-                海滩救生员，性格有些怯懦，在面对尼娜的丈夫及其家人时表现出害怕，但又难以控制自己的感情，对尼娜产生了爱慕之情。他的感情冲动使他陷入了复杂的局面，不仅影响了尼娜的生活，也让自己陷入了困境之中，他的存在推动了故事中情感纠葛的发展。</li>
-            <li>罗莎莉亚 
-            尼娜丈夫的姐姐，性格直爽、泼辣，有时说话粗俗，在家庭中比较强势，有自己的主见，对家庭事务积极参与，关心家人，但方式可能比较直接和强硬。她对尼娜有一定的控制欲和保护欲，希望尼娜能遵循家庭的规则和期望，同时也对家庭的和谐稳定负有一定责任。</li>
-            <li>乔瓦尼
-                公寓的看守或行李员，表面上恭敬、客气，热情欢迎客人，不接受小费，表现出他的职业操守和善良。但在与朋友相处时，会为了面子吹嘘自己与勒达的关系，显示出他内心的虚荣和脆弱。他善于与人交流，在与勒达的聊天中，能够分享自己的生活经历，同时也对勒达表现出一定的关心和好奇，他的性格体现了普通老年人在生活中的复杂心态。</li>
-        </ol>
-          <p>
-            
-          </p>
-          <p>
-            主题探讨
-        </p>
-        <ol>
-            <li>母职与女性身份  母职在社会文化中被赋予了诸多美好的期待，如无私奉献、全身心陪伴孩子成长等。勒达作为母亲，内心深处对女儿有着深沉的爱，这种爱驱使她在生活中承担起照顾女儿的责任，如在女儿成长过程中，她努力满足女儿的各种需求，即便在远方也尽力为她们提供帮助。然而，社会对母职的期待也给她带来了沉重的束缚。她需要时刻关注女儿的生活，将大量精力投入到育儿中，这使她失去了许多个人自由和发展空间。她的自我身份在这个过程中逐渐被母职所掩盖，她渴望能够有时间和精力去追求自己的兴趣、事业，实现个人价值。她在学术研究方面有自己的追求，但母职常常让她感到分身乏术，这种矛盾的处境使她内心充满挣扎。</li>
-            <li>女性之间的复杂关系  勒达与尼娜之间的关系充满了复杂性。勒达被尼娜的母性之美所吸引，尼娜在与女儿相处时展现出的温柔、耐心和亲密互动，让勒达看到了母职中美好的一面，这使她产生了认同感，仿佛在尼娜身上看到了自己理想中母亲的样子。然而，她又对尼娜的行为感到嫉妒甚至批判。她嫉妒尼娜能够如此自然地融入母亲角色，而自己却在母职中经历了诸多挣扎。这种嫉妒心理源于她对自己母职经历的不满，她在尼娜身上看到了自己所缺失的东西，同时也可能是因为她害怕尼娜所代表的那种传统母职模式会对自己所追求的自由和独立产生威胁。这种矛盾情感体现了女性之间在比较和评价彼此的母亲身份时的复杂心理，既有对他人的欣赏，又有对自身不足的焦虑。</li>
-            <li>童年对母女关系的影响  勒达的童年回忆揭示了母女关系在塑造女性身份中的关键作用。她的母亲是一个情感复杂的角色，母亲对她的控制和责备让她感到压抑，这种压抑的童年经历使她渴望自由，渴望摆脱类似的束缚。而在她自己成为母亲后，她的行为和思维方式在某种程度上重复了母亲的模式。例如，她在处理与女儿的关系时，可能会不自觉地表现出控制欲或者情绪不稳定的一面，尽管她内心可能并不希望这样。这种代际传递表明，童年时期的母女关系对女性的成长产生了深远的影响，它不仅影响了女性的性格形成，还在一定程度上决定了她们在成年后如何扮演母亲的角色，以及如何处理与自己子女的关系</li>
-        </ol>
-        <p>
-            <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113402856868048&bvid=BV1qPSHYWE62&cid=26553814754&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"width="400"></iframe>
-          </p>
-        <form action="https://search.douban.com/book/subject_search">
-            <input type="text" name="search_text" />
-            <input type="submit" />
-          </form>
-          
-        </div>
-      </body>
-    </html>
+      </div>
+    </section>
+    <section>
+      <h2>人物介绍</h2>
+      <style>
+        .box {
+          width: 200px;
+          height: 200px;
+          border: dashed rgb(28, 22, 22) 1px;
+          padding: 20px;
+          margin-bottom: 2em;
+          border-radius: 20px;
+        }
+      </style>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="box">江晏，也被称为江无浪，江晏被追杀的原因与他身上的玉佩以及主角的身世有关，离开主角后，江晏在房屋遗迹中留下了一封信，揭示了他曾抚养主角长大的事实。</div>
+        <img src="tupian\003.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="box">寒香寻寒姨，是神仙渡的老板，主角从小就是寒姨和江叔给抚养长大的。这位对待主角和亲人没有区别，平常做事非常谨慎，从小开始就要求我们不要踏入江湖</div>
+        <img src="tupian\004.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 400px;" />
+      </div>
+    </section>
+    <section>
+      <h2>河西来袭</h2>
+      <div class="center-image-container">
+      <img src="tupian\slogan_f2524713.png" alt="燕云十六声" style="display: block; margin: 0 auto; width: 1000px;" />
+    </div>
+     <style>
+        .animate-box {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(192, 184, 184);
+          text-align: center;
+          line-height: 100px;
+          margin-top: 2em;
+          border-radius: 0;
+        }
+        .animate-box:hover {
+          border-radius: 100px;
+          color: white;
+          background-color: rgb(239, 195, 19);
+          transition: all 0.3s;
+        }
+      </style>
+      <div class="animate-box">敬请期待</div>
+    </section>
+    </script>
+  </body>
+</html>
